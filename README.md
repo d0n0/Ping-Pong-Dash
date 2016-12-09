@@ -1,6 +1,5 @@
-# dash-pingpong
-amazon dashで呼び鈴を鳴らす
-
+# Ping-Pong-Dash
+Amazon Dash Buttonと連携してスピーカーからベルを鳴らします。
 
 ## require
 - Amazon Dash Button
