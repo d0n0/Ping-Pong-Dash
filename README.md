@@ -8,6 +8,6 @@ Amazon Dash Buttonと連携してベルを鳴らす簡単なプログラムで�
 
 ## require
 - Amazon Dash Button
-- node.js
+- node.js 6.x
 - npm
 - mpg321
