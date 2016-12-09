@@ -11,3 +11,4 @@ Amazon Dash Buttonと連携してベルを鳴らす簡単なプログラムで�
 - node.js 6.x
 - npm
 - mpg321
+- libpcap-dev
