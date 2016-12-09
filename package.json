@@ -1,0 +1,22 @@
+{
+  "name": "dash-pingpong",
+  "version": "1.0.0",
+  "description": "Ring",
+  "main": "index.js",
+  "scripts": {
+    "scan": "dash-button scan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0n0/dash-pingpong.git"
+  },
+  "author": "d0n0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d0n0/dash-pingpong/issues"
+  },
+  "homepage": "https://github.com/d0n0/dash-pingpong#readme",
+  "dependencies": {
+    "dash-button": "^2.0.1"
+  }
+}
