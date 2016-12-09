@@ -1,5 +1,5 @@
 # Ping-Pong-Dash
-Amazon Dash Buttonと連携してスピーカーからベルを鳴らします。
+### 駆け抜けろ ☆．。．:*･*ﾟ.:｡+ﾟ┌(　・。・)┘.☆
 
 ## require
 - Amazon Dash Button
