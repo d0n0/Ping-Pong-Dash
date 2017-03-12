@@ -1,22 +1,23 @@
 {
-  "name": "dash-pingpong",
+  "name": "Ping-Pong-Dash",
   "version": "1.0.0",
   "description": "Ring",
-  "main": "index.js",
+  "main": "pingpong.js",
   "scripts": {
     "scan": "dash-button scan"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/d0n0/dash-pingpong.git"
+    "url": "git+https://github.com/d0n0/Ping-Pong-Dash.git"
   },
   "author": "d0n0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/d0n0/dash-pingpong/issues"
+    "url": "https://github.com/d0n0/Ping-Pong-Dash/issues"
   },
-  "homepage": "https://github.com/d0n0/dash-pingpong#readme",
+  "homepage": "https://github.com/d0n0/Ping-Pong-Dash#readme",
   "dependencies": {
-    "dash-button": "^2.0.1"
+    "dash-button": "^2.0.1",
+    "moment": "^2.17.1"
   }
 }
