@@ -3,7 +3,7 @@
 <br />
 
 ## description
-Amazon Dash Buttonと連携してベルを鳴らす簡単なプログラムです  
+Amazon Dash Buttonと連携してベルを鳴らす簡単なプログラムです
 <br />
 
 ## require
@@ -15,14 +15,14 @@ Amazon Dash Buttonと連携してベルを鳴らす簡単なプログラムで�
 
 ## install 
 ```
-# apt install -y mpg321 libpcap-dev
+$ sudo apt install -y mpg321 libpcap-dev
 $ git clone https://github.com/d0n0/Ping-Pong-Dash.git
 $ cd ./Ping-Pong-Dash
 $ npm install
 ```
 
 ## configure
-config.jsonにlistenするインターフェース名とボタンのMACアドレスを書き込む  
+config.jsonに、listenするインターフェース名とボタンのMACアドレスを書き込む
 <br />
 
 - インターフェースを確認
@@ -37,6 +37,7 @@ $ ip a
 $ sudo npm run scan
 コマンド入力後にボタンを押す
 ```
+<br />
 
 example)
 ```
@@ -52,9 +53,9 @@ $ cat ./config.json
 要root権限
 $ sudo node pingpong.js
 ```
+<br />
 
 永続的にバックグラウンドで動かしたい場合  
-<br />
 ```
 $ sudo npm install forever -g
 $ sudo forever pingpong.js
