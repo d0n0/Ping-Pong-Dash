@@ -58,5 +58,5 @@ $ sudo node pingpong.js
 永続的にバックグラウンドで動かしたい場合  
 ```
 $ sudo npm install forever -g
-$ sudo forever pingpong.js
+$ sudo forever start pingpong.js
 ```
