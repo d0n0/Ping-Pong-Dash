@@ -56,7 +56,16 @@ $ sudo node pingpong.js
 <br />
 
 永続的にバックグラウンドで動かしたい場合  
+<br />
+
+- forever利用
 ```
 $ sudo npm install forever -g
 $ sudo forever pingpong.js
+```
+- systemd利用
+```
+$ sudo cp Ping-Pong-Dash.service /etc/systemd/system/
+$ sudo systemctl daemon-reload
+$ sudo systemctl start Ping-Pong-Dash
 ```
