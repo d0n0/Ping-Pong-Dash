@@ -61,7 +61,7 @@ $ sudo node pingpong.js
 - forever利用
 ```
 $ sudo npm install forever -g
-$ sudo forever pingpong.js
+$ sudo forever start pingpong.js
 ```
 - systemd利用
 ```
